@@ -1,0 +1,62 @@
+.app {
+    display: grid;
+    grid-template-rows: 200px minmax(200px, max-content);
+}
+
+.search {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search__input {
+    width: 70%;
+    padding: 10px;
+}
+
+.search__button {
+    padding: 10px;
+    width: 20%;
+    color: white;
+    background-color: inherit;
+    border: 2px solid rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.timeline {
+    width: 45%;
+}
+
+.timeline__container {
+    padding-bottom: 10px;
+}
+
+.grid {
+    width: 45%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-row-gap: 10px;
+    grid-column-gap: 2%;
+    grid-auto-rows: max-content;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
